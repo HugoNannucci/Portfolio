@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/components/ContactForm.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/components/ContactForm.tsx", "app/morpion/page.jsx", "app/morpion/useMorpion.js", "app/morpion/Game.jsx"],
   "exclude": ["node_modules"]
 }

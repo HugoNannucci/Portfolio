@@ -41,7 +41,7 @@ export const ContactUs = () => {
       {successMessage && <h4>Votre message a été envoyé avec succès !</h4>}
       <form ref={form} onSubmit={sendEmail}>
         <div className="grid w-full gap-2">
-          <label>Name</label>
+          <label>Nom Prénom</label>
           <Input type="text" name="name" />
           <label>Email</label>
           <Input type="email" name="email" />

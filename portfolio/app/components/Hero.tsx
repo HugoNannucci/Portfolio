@@ -7,10 +7,11 @@ export const Hero = () => {
 				<h2 className='font-caption font-bold text-5xl text-orange-500'>Hugo Nannucci</h2>
 				<h3 className='text-3xl font-caption'>Développeur Web</h3>
 				<p className='text-base'>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo incidunt,
-					placeat delectus cum iste eaque maiores culpa cumque corrupti similique libero!
-					Tenetur quas, sint minima incidunt at quam doloremque tempore!
-					Actuellement à la recherche d'un Alternance!
+				En tant que développeur passionné par la programmation, je souhaite mettre en
+				pratique mes compétences au service de vos projets et objectifs.
+				</p>
+				<p className='text-base mt-10 font-semibold pt-2'>
+				Actuellement à la recherche d'une Alternance!
 				</p>
 			</div>
 			<div className=' flex-[2] max-md:m-auto ml-auto'>

@@ -8,24 +8,26 @@ import { Cv } from './Cv'
 
 export const Header = () => {
 	return (
-		<header className=' sticky top-0'>
+		<header className=' sticky top-0 bg-background'>
 			<Section className=' flex items-baseline'>
 				<h1 className=' text-lg font-bold text-primary '>dev.hugo-nannucci.com</h1>
 				{/* <p className=" text-lg text-muted">Développeur Web</p> */}
 				<div className=' flex-1' />
-				<ul>
+				<ul className=' flex gap-2'>
 					<Cv />
 					<Link
+						target='_blank'
 						href='https://github.com/HugoNannucci'
 						className={cn(buttonVariants({ variant: 'outline' }), 'size-6 p-0')}
 					>
-						<GithubIcon size={16} className=' text-foreground' />
+						<GithubIcon size={24} className=' text-foreground' />
 					</Link>
 					<Link
+						target='_blank'
 						href='https://Linkedin.com/in/hugo-nannucci-6995a8302/'
 						className={cn(buttonVariants({ variant: 'outline' }), 'size-6 p-0')}
 					>
-						<LinkedInIcon size={16} className=' text-foreground' />
+						<LinkedInIcon size={24} className=' text-foreground' />
 					</Link>
 				</ul>
 			</Section>
