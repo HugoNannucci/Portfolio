@@ -35,3 +35,9 @@
     }
   }
 }
+
+@layer utilities {
+  .shadow-foreground-soft {
+    box-shadow: 0 3px 10px 0 hsl(var(--foreground) / 0.12);
+  }
+}
